@@ -1,7 +1,7 @@
 "use client";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
-const moviesPage = async () => {
+const MoviesPage = async () => {
   const [series, setSeries] = useState([]);
   const [az, setAz] = useState("");
 
@@ -68,4 +68,4 @@ const moviesPage = async () => {
   );
 };
 
-export default moviesPage;
+export default MoviesPage;

@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 // import x from "../../../public/imagenotfound.png";
-const seriesPage = async () => {
+const SeriesPage = async () => {
   const [series, setSeries] = useState([]);
   const [az, setAz] = useState("");
 
@@ -69,4 +69,4 @@ const seriesPage = async () => {
   );
 };
 
-export default seriesPage;
+export default SeriesPage;
