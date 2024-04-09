@@ -55,7 +55,7 @@ const MoviesPage = async () => {
                 <img
                   className="w-[100%] h-[100%]"
                   src={i.images["Poster Art"].url}
-                  onError={(e) => (e.target.src = "/imagenotfound.png")}
+                  onError={(e) => (e.target.src = "/imgNotFound.png")}
                   alt={i.title}
                 />
                 <h2 className=" font-bold">{i.title}</h2>
